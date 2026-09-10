@@ -95,7 +95,7 @@ public class Ventana extends JFrame {
     private void cancelarDescargas() {
         cancelado = true;
         btnCancelar.setEnabled(false);
-        registrarEventos("Cancelando descargas...");
+        registrarEventos("Cancelando descargas.");
 
         SwingUtilities.invokeLater(() -> {
             iniciarDescarga.setEnabled(true);
